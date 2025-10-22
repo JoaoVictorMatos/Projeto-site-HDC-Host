@@ -251,6 +251,7 @@ nav{
     padding: 20px;
     font-size: 30px;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .searchdomain-container input[type="submit"]{
@@ -342,6 +343,10 @@ footer p{
     .searchdomain-container{
         padding: 4rem ;
     }
+    .searchdomain-container input[type="text"]{
+        font-size: 20px;
+        width: 100%;
+    }
 }
 /* Celular 600px */
 @media (max-width: 600px){
@@ -396,5 +401,17 @@ footer p{
     .navbarItems li{
         margin-left: 10px;
         font-size: 10px;
+    }
+
+    .mainBanner p{
+        padding: 2rem;
+    }
+
+    .searchdomain-container input[type="text"]{
+        width: 100%;
+        
+    }
+    .searchdomain-container input[type="submit"]{
+        padding: 15px 20px;
     }
 }
