@@ -387,3 +387,13 @@ footer p{
         margin: 10px 0;
     }
 }
+
+@media (max-width: 400px){
+    .navbarContainer{
+        padding: 0 10px;
+    }
+
+    .navbarItems li{
+        margin-left: 10px;
+    }
+}
